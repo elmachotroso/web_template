@@ -1,0 +1,124 @@
+body {
+    background-color: white;
+    background-image: url('../images/bg_main.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    margin: 0px;
+
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-size: 16px;
+    line-height: 1.5;
+    color: black;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 1rem;
+}
+
+/* WIDGET */
+.hamburger_bar div {
+    width: 20px;
+    height: 3px;
+    margin: 3px 0px;
+    background-color: white;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    height: 166px;
+    display: block;
+
+    background-color: rgba(30, 30, 30, 0.5);
+}
+
+header > nav {
+    display: block;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    margin: 0px;
+    height: 50px;
+    text-align: right;
+}
+
+header > nav > a, header > nav > a:visited, head > nav > a:active {
+    display: inline-block;
+    margin: 0px;
+    padding: 12px;
+
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+}
+
+header > nav > a:hover {
+    background-color: black;
+}
+
+header .logo_container {
+    width: 100%;
+    height: 116px;
+}
+
+header .logo_image {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 96px;
+    height: 96px;
+}
+
+header .logo_text {
+    position: absolute;
+    top: 56px;
+    left: 68px;
+    font-weight: bolder;
+    font-size: 24px;
+    line-height: 24px;
+    color: white;
+    vertical-align: middle;
+}
+
+/* MAIN */
+main {
+    margin: 10px;
+}
+
+.float_left {
+    float: left;
+    margin-right: 1vw;
+}
+
+/* FOOTER */
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 1rem;
+
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: 0 50vh 0 50vh black;
+}
+
+footer a, footer a:active, footer a:visited {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
