@@ -1,0 +1,53 @@
+/* Roboto Main Font */
+@font-face {
+    font-family: main_font;
+    src: url( "../fonts/Roboto/Roboto-Regular.ttf" );
+}
+
+@font-face {
+    font-family: main_font;
+    src: url( "../fonts/Roboto/Roboto-Bold.ttf" );
+    font-weight: bold;
+}
+
+/* Roboto Source Font */
+@font-face {
+    font-family: source_font;
+    src: url( "../fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf" );
+}
+
+@font-face {
+    font-family: source_font;
+    src: url( "../fonts/Roboto_Mono/RobotoMono-Italic-VariableFont_wght.ttf" );
+    font-style: italic;
+}
+
+/* Maven Pro Headline Font */
+@font-face {
+    font-family: headline_font;
+    src: url( "../fonts/Maven_Pro/static/MavenPro-Regular.ttf" );
+}
+
+@font-face {
+    font-family: headline_font;
+    src: url( "../fonts/Maven_Pro/static/MavenPro-Bold.ttf" );
+    font-weight: bold;
+}
+
+/* Titilium Web Logo Font */
+@font-face {
+    font-family: logo_font;
+    src: url( "../fonts/Titillium_Web/TitilliumWeb-Regular.ttf" );
+}
+
+@font-face {
+    font-family: logo_font;
+    src: url( "../fonts/Titillium_Web/TitilliumWeb-Bold.ttf" );
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: logo_font;
+    src: url( "../fonts/Titillium_Web/TitilliumWeb-Italic.ttf" );
+    font-style: italic;
+}
